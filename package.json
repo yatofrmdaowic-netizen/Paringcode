@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-pairing-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Pairing Code + creds.json sender",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "pairing",
+    "creds"
+  ],
+  "author": "Yato",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "pino": "^8.17.0",
+    "chalk": "^4.1.2"
+  }
+}
